@@ -1,0 +1,12 @@
+package_manager: pnpm
+checks:
+  - pnpm run doctor
+  - pnpm run test
+  - pnpm run build
+artifact_assertions:
+  - dist/index.html
+  - dist/assets
+fail_patterns:
+  - HARD_STOP
+notes:
+  - Run the same checks in CI for pull requests and before public releases.
