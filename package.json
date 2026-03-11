@@ -1,6 +1,6 @@
 {
   "name": "budget-generator-interface",
-  "description": "React app for building quotes, previewing printable sheets, and exporting client-facing PDFs, maintained by the datobueno association.",
+  "description": "React app for building quotes, previewing printable sheets, and exporting client-facing PDFs, with a repository demo video in demo.mp4.",
   "private": true,
   "version": "0.1.0",
   "type": "module",

@@ -2,6 +2,10 @@
 
 `budget-generator-interface` is a React + TypeScript app for creating quotes and budgets, previewing printable sheets, and exporting client-facing PDFs.
 
+Project demo: [`demo.mp4`](./demo.mp4)
+
+The repository includes a short product walkthrough so contributors and evaluators can quickly see how the editor, preview, and PDF export flow work in practice.
+
 It is maintained by `datobueno`, which is the association behind the project. `datobueno` is not the product name.
 
 ## Highlights
