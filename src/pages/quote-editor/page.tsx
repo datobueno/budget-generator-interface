@@ -110,10 +110,6 @@ import {
   usePdfExport,
 } from "./model";
 
-const REPOSITORY_URL = "https://github.com/datobueno/budget-generator-interface";
-const LICENSE_URL = `${REPOSITORY_URL}/blob/main/LICENSE`;
-const TRADEMARKS_URL = `${REPOSITORY_URL}/blob/main/TRADEMARKS.md`;
-
 const conceptRowFieldClass =
   "h-10 rounded-[8px] border-transparent bg-transparent px-2 py-0 text-[14px] font-normal text-[#171717] placeholder:text-[#b7b7b7] shadow-none focus-visible:border-[#e5e5e5] focus-visible:ring-1 focus-visible:ring-[#e5e5e5]";
 const conceptComboboxContentClass =
@@ -1827,47 +1823,6 @@ export function QuoteEditorPage() {
             </div>
           </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div className="mx-auto mt-4 w-full max-w-[1160px] px-4 md:px-6">
-        <div className="rounded-[10px] border border-zinc-200 bg-white/80 px-4 py-3 text-xs text-zinc-600 shadow-sm">
-          <p>
-            <span className="font-medium text-zinc-900">budget-generator-interface</span> is
-            maintained by <span className="font-medium text-zinc-900">datobueno</span>, an
-            association. <span className="font-medium text-zinc-900">datobueno</span> is not the
-            product name.
-          </p>
-          <p className="mt-1">
-            Copyright (C) 2026 datobueno association. Licensed under
-            <span className="font-medium text-zinc-900"> AGPL-3.0-or-later</span>. You may use,
-            modify, and convey this software under that license. No warranty.
-          </p>
-          <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1">
-            <a
-              href={REPOSITORY_URL}
-              target="_blank"
-              rel="noreferrer"
-              className="underline underline-offset-2 hover:text-zinc-900"
-            >
-              Source
-            </a>
-            <a
-              href={LICENSE_URL}
-              target="_blank"
-              rel="noreferrer"
-              className="underline underline-offset-2 hover:text-zinc-900"
-            >
-              AGPL-3.0-or-later
-            </a>
-            <a
-              href={TRADEMARKS_URL}
-              target="_blank"
-              rel="noreferrer"
-              className="underline underline-offset-2 hover:text-zinc-900"
-            >
-              Trademark Policy
-            </a>
           </div>
         </div>
       </div>
