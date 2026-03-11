@@ -1,6 +1,6 @@
 {
   "name": "budget-generator-interface",
-  "description": "React app for building quotes, previewing printable sheets, and exporting client-facing PDFs, with a repository demo video under assets/demo.mp4.",
+  "description": "React app for building quotes, previewing printable sheets, and exporting client-facing PDFs, with an inline demo GIF under assets/demo.gif.",
   "private": true,
   "version": "0.1.0",
   "type": "module",

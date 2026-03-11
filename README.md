@@ -4,11 +4,9 @@
 
 ## Demo
 
-<a href="./assets/demo.mp4">
-  <img src="./assets/demo-poster.png" alt="Budget generator demo video preview" width="960" />
-</a>
+![Budget generator demo](./assets/demo.gif)
 
-Watch the product walkthrough: [`assets/demo.mp4`](./assets/demo.mp4)
+Animated walkthrough of the quote editor, printable preview, and PDF export flow.
 
 The repository includes a short product walkthrough so contributors and evaluators can quickly see how the editor, preview, and PDF export flow work in practice.
 
